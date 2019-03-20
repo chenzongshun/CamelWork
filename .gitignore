@@ -1,0 +1,25 @@
+# Created by .ignore support plugin (hsz.mobi)
+### Example user template template
+### Example user template
+
+# 上传文件，过滤不必要的后缀文件
+# IntelliJ project files
+.idea
+*.iml
+*.log
+*.gz
+target
+tomcat
+zkdata
+logs
+out
+gen
+
+# eclipse project file
+*.project
+*.settings
+*.classpath
+*.gitignore
+.gitignore
+*.setting
+bin
