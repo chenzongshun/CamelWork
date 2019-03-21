@@ -29,7 +29,7 @@ public class OracleStoredInsert {
             @Override
             public void configure() throws Exception {
 //                    JDBC组件没法使用 from端点，需要一个触发机制。比如：定时器、或者http调用触发。
-                from("timer://queryAward?period=100000s")
+                from("timer://queryAward?period=1000s")
                         .process(new Processor() {
                             @Override
                             public void process(Exchange exchange) throws Exception {

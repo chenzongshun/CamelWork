@@ -21,7 +21,7 @@ public class MySqlSearchJetty {
                 from("jetty:http://0.0.0.0:8081/MySqlSearch")
                         .setBody(constant("select * from test where tnumber=-413022102"))
                         .to("jdbc:DataSource?outputType=SelectList")
-                        .to("log:result?showCaughtException=true&showOut=true")
+//                        .to("log:result?showCaughtException=true&showOut=true")
                 ;
             }
         });
