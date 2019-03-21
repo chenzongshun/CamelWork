@@ -1,8 +1,8 @@
-package com.uindata.czs.cxf.clinet;
+package com.uindata.czs.cxf.wsdl.clinet;
 
 import com.uindata.czs.utils.Variable;
 
-import javax.xml.namespace.QName;
+        import javax.xml.namespace.QName;
         import java.net.URL;
 
 public class MySqlClient {

@@ -1,5 +1,8 @@
 package com.uindata.czs.http;
  
+import org.apache.camel.Exchange;
+import org.apache.camel.Expression;
+import org.apache.camel.Processor;
 import org.apache.camel.builder.RouteBuilder;
 import org.apache.camel.impl.DefaultCamelContext;
 import org.apache.camel.model.ModelCamelContext;
@@ -31,7 +34,7 @@ public class HttpRemoteRequest extends RouteBuilder {
     public void configure() throws Exception {
         from("netty-http:http://127.0.0.1:8282/http").to("direct:getContact");
 //        from("direct:getContact").to("http://mobsec-dianhua.baidu.com/dianhua_api/open/location?tel=17001111234&parameters&bridgeEndpoint=true");// 手机号码归属地成功
-        from("direct:getContact").to("http://www.baidu.com?&parameters&bridgeEndpoint=true");// 百度成功
-
+        from("direct:getContact").to("http://www.baidu.com?&parameters&bridgeEndpoint=true")
+        ;// 百度成功
     }
 }

@@ -1,4 +1,4 @@
-package com.uindata.czs.cxf.clinet;
+package com.uindata.czs.cxf.wsdl.clinet;
 
 import java.net.MalformedURLException;
 import java.net.URL;

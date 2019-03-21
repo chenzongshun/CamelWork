@@ -1,5 +1,5 @@
 
-package com.uindata.czs.cxf.clinet;
+package com.uindata.czs.cxf.wsdl.clinet;
 
 import javax.xml.ws.Endpoint;
 

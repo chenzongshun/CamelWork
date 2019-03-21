@@ -1,4 +1,4 @@
-package com.uindata.czs.cxf.server;
+package com.uindata.czs.cxf.wsdl.server;
 
 /**
  * @author ：chenzongshun

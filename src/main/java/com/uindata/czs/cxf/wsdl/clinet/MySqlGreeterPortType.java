@@ -1,4 +1,4 @@
-package com.uindata.czs.cxf.clinet;
+package com.uindata.czs.cxf.wsdl.clinet;
 
 import javax.jws.WebMethod;
 import javax.jws.WebParam;
@@ -19,8 +19,8 @@ import javax.xml.ws.ResponseWrapper;
 public interface MySqlGreeterPortType {
 
     @WebMethod
-    @RequestWrapper(localName = "operation", targetNamespace = "http://DefaultNamespace", className = "com.uindata.czs.cxf.clinet.Operation")
-    @ResponseWrapper(localName = "operationResponse", targetNamespace = "http://DefaultNamespace", className = "com.uindata.czs.cxf.clinet.OperationResponse")
+    @RequestWrapper(localName = "operation", targetNamespace = "http://DefaultNamespace", className = "Operation")
+    @ResponseWrapper(localName = "operationResponse", targetNamespace = "http://DefaultNamespace", className = "OperationResponse")
     @WebResult(name = "return", targetNamespace = "http://DefaultNamespace")
     public java.lang.String operation(
         @WebParam(name = "arg0", targetNamespace = "http://DefaultNamespace")

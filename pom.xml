@@ -221,6 +221,12 @@
             <artifactId>mysql-connector-java</artifactId>
             <version>${mysql-connector}</version>
         </dependency>
+        <dependency>
+            <groupId>org.apache.camel</groupId>
+            <artifactId>camel-xmljson</artifactId>
+            <version>${camel_version}</version> <!-- use the same version as your Camel core version -->
+        </dependency>
+
 
     </dependencies>
 

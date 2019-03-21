@@ -14,9 +14,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.uindata.czs.cxf.server;
+package com.uindata.czs.cxf.wsdl.server;
 
-import com.uindata.czs.cxf.clinet.MySqlClient;
+import com.uindata.czs.cxf.wsdl.clinet.MySqlClient;
 import com.uindata.czs.database.mysql.timer.MySqlSearch;
 import com.uindata.czs.database.mysql.timer.MySqlStoredInsert;
 import com.uindata.czs.utils.Variable;
