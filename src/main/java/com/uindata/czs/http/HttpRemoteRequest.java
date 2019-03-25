@@ -45,9 +45,9 @@ public class HttpRemoteRequest {
                                 public void process(Exchange exchange) throws Exception {
                                     try {
                                         // 从Get地址获取参数【有风险，多输后解析json会报错，如d=6&3=3】并设置
-                                        String CamelHttpQuery = exchange.getIn().getHeaders().get("CamelHttpQuery").toString();
-                                        CamelHttpQuery = CamelHttpQuery.replace("=", ":");
-                                        JSONObject param = (JSONObject) JSONObject.parse("{" + CamelHttpQuery + "}");
+                                        String camelHttpQuery = exchange.getIn().getHeaders().get("CamelHttpQuery").toString();
+                                        camelHttpQuery = camelHttpQuery.replace("=", ":");
+                                        JSONObject param = (JSONObject) JSONObject.parse("{" + camelHttpQuery + "}");
                                         exchange.getOut().setBody("{'id':'" + param.get("id") + "'}");
                                     } catch (Exception e) {
                                         // 直接设置POST请求参数
