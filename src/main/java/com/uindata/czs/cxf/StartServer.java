@@ -1,6 +1,5 @@
 package com.uindata.czs.cxf;
 
-import com.uindata.czs.http.HttpRemoteRequest;
 import org.apache.camel.CamelContext;
 import org.apache.camel.builder.RouteBuilder;
 import org.apache.camel.component.cxf.CxfEndpoint;

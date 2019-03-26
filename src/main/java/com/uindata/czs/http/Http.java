@@ -13,7 +13,7 @@ import org.apache.camel.model.ModelCamelContext;
  * 可以参考：https://blog.csdn.net/helllochun/article/details/80975303 </br>
  * 本案例需要启动Esb的服务【czsTestHttp】
  */
-public class HttpRemoteRequest {
+public class Http {
 
     public static void main(String[] args) {
         try {
@@ -62,8 +62,8 @@ public class HttpRemoteRequest {
             });
 
             // 通用没有具体业务意义的代码，只是为了保证主线程不退出
-            synchronized (HttpRemoteRequest.class) {
-                HttpRemoteRequest.class.wait();
+            synchronized (Http.class) {
+                Http.class.wait();
             }
         } catch (Exception e) {
             e.printStackTrace();
