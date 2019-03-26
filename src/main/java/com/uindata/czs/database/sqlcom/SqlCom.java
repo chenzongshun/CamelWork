@@ -1,4 +1,4 @@
-package com.uindata.czs.database.sql;
+package com.uindata.czs.database.sqlcom;
 
 import com.uindata.czs.utils.datasource.MySqlDataSource;
 import org.apache.camel.builder.RouteBuilder;
