@@ -9,7 +9,11 @@ import org.apache.camel.impl.DefaultCamelContext;
 import javax.jms.ConnectionFactory;
 
 /**
- * 相当于java当中的ifelse，条件选择进行不同的处理
+ *
+ * @author ：chenzongshun
+ * @date ：Created in 2019-04-04 11:20:59
+ * @description：相当于java当中的ifelse，条件选择进行不同的处理
+ *
  */
 public class ChoiceWhen {
     public static void main(String args[]) throws Exception {
