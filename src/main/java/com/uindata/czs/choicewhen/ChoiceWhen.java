@@ -12,7 +12,7 @@ import javax.jms.ConnectionFactory;
  *
  * @author ：chenzongshun
  * @date ：Created in 2019-04-04 11:20:59
- * @description：相当于java当中的ifelse，条件选择进行不同的处理
+ * @description：相当于java当中的ifelse，条件选择进行不同的处理，建议目录下有sql、txt或者其它后缀的文件好展示效果
  *
  */
 public class ChoiceWhen {

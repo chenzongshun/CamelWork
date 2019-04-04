@@ -12,7 +12,7 @@ import javax.jms.ConnectionFactory;
  *
  * @author ：chenzongshun
  * @date ：Created in 2019-04-04 13:38:35
- * @description：Camle路由的Filter
+ * @description：Camle路由的Filter，建议目录下只有一个文件比较好展示效果
  *
  */
 public class CamleFilter {
