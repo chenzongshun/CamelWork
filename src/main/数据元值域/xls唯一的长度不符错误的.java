@@ -1,4 +1,4 @@
-package com.uindata.czs.dict;
+package 数据源值域;
 
 import java.util.ArrayList;
 import java.util.List;
