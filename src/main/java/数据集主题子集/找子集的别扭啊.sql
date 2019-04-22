@@ -770,7 +770,7 @@ INSERT INTO `esb_cfg_dataset_column` (`id`, `name`, `desc`, `inner_symbol`, `met
 	(768, 'OPERATION_BLEEDING', '手术中出血量的累计值，计量单位为mL', 'HDSD00.07.136', 'DE06.00.097.00', 37, NULL, NULL),
 	(769, 'TRANS_INGREDIENTS', '输血成分的详细描述', 'HDSD00.07.137', 'DE06.00.262.00', 37, NULL, NULL),
 	(770, 'BLOOD_TRANSFERED_VALUE', '输入红细胞、血小板、血浆、全血等的数量，计量单位为mL', 'HDSD00.07.138', 'DE06.00.267.00', 37, NULL, NULL),
-	(771, 'OPERATION_INFUSION', '术中输液麗的描述，单位为mL', 'HDSD00.07.139', 'DE06.00.268.00', 37, NULL, NULL),
+	(771, 'OPERATION_INFUSION', '术中输液量的描述，单位为mL', 'HDSD00.07.139', 'DE06.00.268.00', 37, NULL, NULL),
 	(772, 'OXYGEN_SUPPLY_TIME', '供氧时间的时长，计量单位为min', 'HDSD00.07.140', 'DE06.00.318.00', 37, NULL, NULL),
 	(773, 'AFTER_DELIVERY_DRUG', '其他使用药物的通用名称', 'HDSD00.07.141', 'DE08.50.022.00', 37, NULL, NULL),
 	(774, 'ADVICE_REMAKR', '其他用药情况的详细描述', 'HDSD00.07.142', 'DE06.00.179.00', 37, NULL, NULL),
